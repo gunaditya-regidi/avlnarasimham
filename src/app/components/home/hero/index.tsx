@@ -42,7 +42,7 @@ function HeroSection() {
               
               <div className='lg:max-w-[50%] flex flex-col text-center lg:text-left items-center lg:items-start gap-0.5'>
                 <h1 className='font-medium w-auto text-17xl leading-none'>
-                  Metallurgical Solutions <span className='text-7xl leading-none'>(Ferro Alloys)</span>
+                  Metallurgical Solutions in <span className='text-7xl leading-none'>Ferro Alloys</span>
                  
                   <span className='instrument-font italic font-normal dark:text-white/70 block text-7xl leading-tight'>
                     with proven expertise
