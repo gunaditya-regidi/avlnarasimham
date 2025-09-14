@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React, { useEffect, useRef, useState } from 'react'
 import { brand } from '@/app/types/menu'
-import { brandList } from '@/app/api/page-data/route'
+import { brandList } from '@/app/data/page-data'
 import { motion, useInView } from 'framer-motion'
 
 function Innovation() {
