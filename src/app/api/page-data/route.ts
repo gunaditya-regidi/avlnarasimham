@@ -30,7 +30,7 @@ const avatarList: avatar[] = [
   },
 ]
 
-const brandList: brand[] = [
+export const brandList: brand[] = [
   {
     image: '/images/home/brand/bal.jpeg',
     darkImg: '/images/home/brand/bal.jpeg',
