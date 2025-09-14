@@ -14,19 +14,19 @@ import {
 const avatarList: avatar[] = [
   {
     image: '/images/home/avatar_1.jpg',
-    title: 'Sarah Johnson',
+    title: 'Tata',
   },
   {
     image: '/images/home/avatar_2.jpg',
-    title: 'Olivia Miller',
+    title: 'Jindal',
   },
   {
     image: '/images/home/avatar_3.jpg',
-    title: 'Sophia Roberts',
+    title: 'Facor',
   },
   {
     image: '/images/home/avatar_4.jpg',
-    title: 'Isabella Clark',
+    title: 'GMR',
   },
 ]
 
@@ -69,7 +69,11 @@ const brandList: brand[] = [
     darkImg: '/images/home/brand/fac.png',
     title: 'facor',
   },
-
+{
+    image: '/images/home/brand/abh.png',
+    darkImg: '/images/home/brand/abh.png',
+    title: 'Abhijit',
+  },
    {
     image: '/images/home/brand/vas.png',
     darkImg: '/images/home/brand/vas.png',
@@ -91,7 +95,11 @@ const brandList: brand[] = [
     darkImg: '/images/home/brand/145.jpg',
     title: 'andh',
   },
-
+{
+    image: '/images/home/brand/met.png',
+    darkImg: '/images/home/brand/met.png',
+    title: 'Metkore',
+  },
  
 {
     image: '/images/home/brand/prak.jpg',
@@ -103,7 +111,7 @@ const brandList: brand[] = [
 const innovationList: innovation[] = [
   {
     image: '/images/home/innovation/brand.svg',
-    title: 'Material Intelligence \n and \nSelection',
+    title: 'Raw Material Intelligence \n & \nSelection',
     bg_color: 'bg-purple/20',
     txt_color: 'text-purple',
   },
@@ -121,13 +129,13 @@ const innovationList: innovation[] = [
   },
   {
     image: '/images/home/innovation/analitics.svg',
-    title: 'Testing,\n Auditing\n & \nCompliance',
+    title: 'New Product\n Development \n & \n Troubleshooting',
     bg_color: 'bg-green/20',
     txt_color: 'text-green',
   },
   {
     image: '/images/home/innovation/webdevp.svg',
-    title: 'Training\n and \nR&D Solutions',
+    title: 'Training\n & \nR&D Solutions',
     bg_color: 'bg-pink/20',
     txt_color: 'text-pink',
   },
@@ -194,7 +202,7 @@ const creativeMindList: creativeMind[] = [
 const WebResultTagList: WebResultTag[] = [
   {
     image: '/images/home/result/creativity.svg',
-    name: 'Materials Analysis',
+    name: 'Raw Materials Analysis & Management',
     bg_color: 'bg-purple/20',
     txt_color: 'text-purple',
   },
@@ -204,11 +212,18 @@ const WebResultTagList: WebResultTag[] = [
     bg_color: 'bg-orange/20',
     txt_color: 'text-orange',
   },
+  
    {
     image: '/images/home/result/innovation.svg',
     name: 'Technical Consulting',
     bg_color: 'bg-blue/20',
     txt_color: 'text-blue',
+  },
+   {
+    image: '/images/home/result/control.svg',
+    name: 'Process Control & Cost Control',
+    bg_color: 'bg-green/20',
+    txt_color: 'text-green',
   },
 ]
 
@@ -241,9 +256,9 @@ const startupPlanList: startupPlan[] = [
     plan_price: '₹999',
     icon_img: '/images/home/startupPlan/black_tick.svg',
     plan_feature: [
-      'One-on-One Expert Session (30–45 mins)',
+      'One-on-One Expert Session (10 mins)',
       'Initial Plant/Process Diagnostic',
-      'Customized Advisory Report (PDF)',
+      'Customized Advisory Report',
       'Alternate Raw Material Suggestions',
       '₹500 Credit Towards Next Paid Service',
       'Pan-India & Global Consultation Availability',
@@ -255,7 +270,7 @@ const faqList: faq[] = [
   {
     faq_que: 'Who is behind this Metallurgy Consultancy?',
     faq_ans:
-      'Our consultancy is led by Mr. A V L Narasimham, a veteran metallurgist with over five decades of experience in the ferro alloys and metals industry. He has held top technical leadership roles in FACOR, TATA Steel, Balasore Alloys, and more. He is also the author of a well-received industry book on Ferro Alloys Production.',
+      'Our consultancy is led by Mr. A V L Narasimham, a veteran metallurgist with over five decades of experience in the ferro alloys industry. He has held top technical leadership roles in FACOR, TATA Steel, Balasore Alloys, and more. He is also the author of a well-received industry book on Ferro Alloys Production.',
   },
   {
     faq_que: 'What services do you offer?',
@@ -265,22 +280,22 @@ const faqList: faq[] = [
   {
     faq_que: 'How much does a consultation cost?',
     faq_ans:
-      'We are offering a limited-time inaugural consultation at just ₹999/-. This includes a 30-minute online session with our expert, initial review of your plant or problem, and actionable recommendations tailored to your setup.',
+      'We are offering a limited-time inaugural consultation at just ₹999/-. This includes a 10-minute online session, initial review of your plant or problem, and actionable recommendations tailored to your setup.',
   },
   {
     faq_que: 'Which industries or companies do you serve?',
     faq_ans:
-      'We serve ferro alloy plants, steel manufacturers, foundries, and smelting units. Our lead consultant has worked with clients across India in states like Odisha, Gujarat, Karnataka, and more, and consulted for overseas plants in Germany, Japan, UK, USA, South Africa, and others.',
+      'We serve ferro alloy plants, steel manufacturers, foundries, and smelting units. Our lead consultant has worked with clients across India in states like Odisha, Gujarat, Karnataka, Westbengal, Andhra Pradesh and more, and consulted for overseas plants in Germany, Japan, Zimbambawe, China, Zambia etc.,',
   },
   {
     faq_que: 'What are your major achievements in the industry?',
     faq_ans:
-      'We pioneered 100% briquette usage at FACOR, introduced cost-effective substitutes like Serpentinite and Pyroxynite, and implemented hot charge techniques at TATA Steel. Over 10+ technical papers have been presented by our founder, and our consultancy has guided startups and furnace commissioning projects across India.',
+      'We pioneered 100% briquette usage at FACOR, introduced cost-effective substitutes like Serpentinite and Pyroxynite, and implemented New Charge Recipes at TATA Steel. Over 10+ technical papers have been presented by our founder, and our consultancy has guided startups and furnace commissioning projects across India.',
   },
   {
     faq_que: 'Do you provide in-person or on-site consultations?',
     faq_ans:
-      'Yes. We offer both online consultations for quick support and in-person/on-site services for in-depth technical audits, troubleshooting, and commissioning support. Travel charges may apply depending on location and scope.',
+      'We offer online consultations for quick support and in-depth technical Doubts resolution, troubleshooting.',
   },
   {
     faq_que: 'How do I get started?',
@@ -288,9 +303,9 @@ const faqList: faq[] = [
       'Click on the "Get Consultation" button, submit your inquiry or plant details, and we will get back to you within one business day. You’ll receive expert guidance tailored to your operational needs — with clarity, speed, and precision.',
   },
   {
-    faq_que: 'Is this suitable for small or mid-sized plants?',
+    faq_que: 'Is this suitable for small, mid-size, and large plants?',
     faq_ans:
-      'Absolutely. Our services are scalable and cost-effective, making them ideal for small to mid-size units as well as high-capacity operations. We provide customized solutions that directly improve operational efficiency and cost control.',
+      'Absolutely. Our services are scalable and cost-effective, making them ideal for small to Large-size units as well as high-capacity operations. We provide customized solutions that directly improve operational efficiency and cost control.',
   },
 ]
 

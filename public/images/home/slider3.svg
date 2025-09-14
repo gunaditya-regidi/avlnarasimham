@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
-  <rect width="800" height="600" fill="#f8f9fa"/>
-  <g transform="translate(400,300)">
-    <rect x="-150" y="-100" width="300" height="200" fill="#5b21b6" rx="10"/>
-    <text x="0" y="0" font-family="Arial" font-size="24" fill="white" text-anchor="middle" dominant-baseline="middle">Global Experience</text>
-    <text x="0" y="40" font-family="Arial" font-size="18" fill="white" text-anchor="middle" dominant-baseline="middle">16 Countries Visited</text>
-  </g>
-</svg>

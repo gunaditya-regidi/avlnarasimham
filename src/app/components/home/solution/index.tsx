@@ -14,7 +14,7 @@ function Solutions() {
   }
 
   return (
-    <section>
+    <section id='lifejourney'>
       <div className='2xl:py-20 py-11'>
         <div className='container'>
           <div
@@ -31,15 +31,29 @@ function Solutions() {
                   </span>
                 </h2>
                 <p className='dark:text-dark_black'>
-                  Helping 100+ industrial clients reduce cost, optimize processes, and scale faster
+                  Helping 35+ industrial clients reduce cost, optimize processes, and scale faster
                 </p>
                 <h4>Get Expert Advice only at ₹999</h4>
+                <div className="w-full max-w-2xl aspect-video rounded-xl overflow-hidden">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/c-WPhKsikkU?si=NjQEF6Ke1ff7tliS&amp;controls=0"
+                    title="AVL Narasimham Interview"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerPolicy="strict-origin-when-cross-origin" 
+                    allowFullScreen
+                    className="w-full h-full"
+                  />
+                  
+
+                </div>
               </div>
               <Link
                 href='/contact'
                 className='group w-fit text-white font-medium bg-dark_black rounded-full flex items-center gap-4 py-2 pl-5 pr-2 hover:bg-transparent border border-dark_black'>
                 <span className='group-hover:translate-x-9 group-hover:text-dark_black transform transition-transform duration-200 ease-in-out'>
-                  Let’s Collaborate
+                  Get Consultation
                 </span>
                 <svg
                   width='32'

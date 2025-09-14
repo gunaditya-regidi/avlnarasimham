@@ -17,7 +17,7 @@ function CustomerStories() {
             </div>
             <div className='flex flex-col gap-6'>
               <div className='flex flex-col xl:flex xl:flex-row gap-6'>
-                <div className="p-8 gap-64 rounded-2xl flex flex-col relative bg-[url('/images/home/customerStories/customer_bg_img.jpg')] object-cover bg-center h-full w-full bg-cover bg-no-repeat">
+                <div className="p-8 gap-64 rounded-2xl flex flex-col relative bg-[url('/images/home/customerStories/8.jpeg')] object-cover bg-center h-full w-full bg-cover bg-no-repeat">
                   <span className='text-white/60 uppercase text-sm font-medium'>
                     Customer stories
                   </span>
@@ -44,7 +44,7 @@ function CustomerStories() {
                       91%
                     </h2>
                     <h4 className='dark:text-dark_black'>
-                      Clients recommend our design services."
+                      Clients recommend our Consultancy service in Metallurgy (Ferro Alloys).
                     </h4>
                   </div>
                 </div>
@@ -60,7 +60,7 @@ function CustomerStories() {
                     </p>
                     <div>
                       <Image
-                        src='/images/home/customerStories/creativity_img.jpg'
+                        src='/images/home/customerStories/4.jpeg'
                         alt='image'
                         width={344}
                         height={220}
@@ -102,7 +102,7 @@ function CustomerStories() {
 Tata Steel             </p>
                     <div>
                       <Image
-                        src='/images/home/customerStories/creativity_img.jpg'
+                        src='/images/home/customerStories/7.jpeg'
                         alt='image'
                         width={344}
                         height={220}
@@ -113,7 +113,7 @@ Tata Steel             </p>
                   </div>
                 </div>
 
-                <div className="p-8 gap-64 rounded-2xl flex flex-col relative bg-[url('/images/home/customerStories/customer_bg_img.jpg')] object-cover bg-center h-full w-full bg-cover bg-no-repeat">
+                <div className="p-8 gap-64 rounded-2xl flex flex-col relative bg-[url('/images/home/customerStories/1.jpeg')] object-cover bg-center h-full w-full bg-cover bg-no-repeat">
                   <span className='text-white/60 uppercase text-sm font-medium'>
                     Customer stories
                   </span>
@@ -158,7 +158,7 @@ Tata Steel             </p>
                       Mr. Narasimham quickly diagnosed and resolved persistent sparking issues in our furnace systems and also provided valuable long-term plant optimization strategies.</h4> <p className='text-white'> - Jindal Steel & Power Ltd.</p>
                     <div>
                       <Image
-                        src='/images/home/customerStories/creativity_img.jpg'
+                        src='/images/home/customerStories/10.jpeg'
                         alt='image'
                         width={344}
                         height={220}

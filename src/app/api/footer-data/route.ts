@@ -28,28 +28,19 @@ const footerData = {
         ]
     },
     sitemap: {
-        name: "Sitemap",
+        name: "Important Links",
         links: [
             { name: "Contact us", url: "/contact" },
-            { name: "About us", url: "/#aboutus" },
-            { name: "Work", url: "/#work" },
-            { name: "Services", url: "/#services" },
-            { name: "Pricing", url: "/#pricing" }
-        ]
-    },
-    otherPages: {
-        name: "Other Pages",
-        links: [
-            { name: "Error 404", url: "/not-found" },
-            { name: "Terms & Conditions", url: "/terms-and-conditions" },
-            { name: "Privacy Policy", url: "/privacy-policy" },
-            { name: "Documentation", url: "/documentation" }
+            { name: "About us", url: "/aboutus" },
+            { name: "Our Services", url: "/ourservices" },
+            { name: "Consultation", url: "/Contact" },
+            { name: "Interview", url: "/#solution" }
         ]
     },
     contactDetails: {
         name:"Contact Details",
-        address: "Visakhapatnam, Andhra Pradesh",
-        email: "avlnarasimham@gmail.com",
+        address: "#39-2-4/2, Muralinagar, Visakhapatnam, Andhra Pradesh - 530007",
+        email: "avin1947@gmail.com  avinash1947@yahoo.com",
         phone: "0105 192 3556"
     },
     copyright: "©2025 A.V.L. Narasimham. All Rights Reserved | Designed & Developed by Digital Videos MSME"

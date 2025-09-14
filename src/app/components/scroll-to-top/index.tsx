@@ -33,7 +33,7 @@ export default function ScrollToTop() {
     <div className="fixed bottom-8 right-8 z-999">
       <div className="flex items-center gap-2.5">
         <Link
-  href="https://wa.me/919876543210?text=Hi%20Team%2C%20I%20am%20interested%20in%20your%20metallurgy%20consultation%20services.%20Please%20share%20more%20details."
+  href="https://wa.me/919848418582?text=Hi%20Team%2C%20I%20am%20interested%20in%20your%20metallurgy%20consultation%20services.%20Please%20share%20more%20details."
   target="_blank"
   className="hidden lg:flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white text-sm px-4 py-3.5 leading-none rounded-lg font-medium"
 >
@@ -48,7 +48,7 @@ export default function ScrollToTop() {
   </svg>
   Connect on WhatsApp
 </Link>
-
+    
         {isVisible && (
           <div
             onClick={scrollToTop}

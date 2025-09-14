@@ -62,21 +62,13 @@ function Innovation() {
                           alt='icon'
                           height={40}
                           width={40}
-                          className="relative top-8"
+                          className="relative top-8 ml-8 transition-all duration-500 ease-in-out group-hover:scale-75"
                         />
                       </div>
-                      <div className="absolute inset-0 w-full h-full translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
-                        <Image
-                          src={`/images/home/brand/${items.title || 'bal'}.jpeg`}
-                  alt='background'
-                  fill
-                  className="object-cover brightness-110 contrast-110"
-                  priority
-                        />
+                     
+                      <div className="h-[40px] relative">
                       </div>
-                      <div className="h-[40px] relative z-10">
-                      </div>
-                      <div className="transition-opacity duration-500 group-hover:opacity-0">
+                      <div className="transition-all duration-500 ease-in-out group-hover:scale-110 relative">
                         <h5 className={`${items.txt_color}`}>
                           {items.title.split('\n')?.map((line:any, i:number) => (
                             <React.Fragment key={i}>
@@ -95,8 +87,8 @@ function Innovation() {
   {...bottomAnimation(3)}
   className='flex flex-col gap-4 xl:flex xl:flex-row bg-dark_black items-center justify-between dark:bg-white/5 py-8 px-7 sm:px-12 rounded-3xl w-full'>
   <h4 className='text-white text-center xl:text-left'>
-    See Our Work in Action.
-    <br /> Start Your Creative Journey with Us!
+    Start Solving, Start Scaling.
+    <br /> Your Metallurgical Journey Starts Here!
   </h4>
   <div className='flex flex-col sm:flex-row gap-3 items-center'>
     {/* This button remains as previously defined, if you want it */}
@@ -133,7 +125,7 @@ function Innovation() {
 
     {/* Updated Get Consultation button */}
     <Link
-      href='/contact'
+      href='/#pricing'
       // Initial state: purple background, white text, white arrow inside white circle
       // Hover state: white background, purple text, purple arrow inside purple circle
       className='group

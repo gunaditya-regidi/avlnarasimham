@@ -1,4 +1,3 @@
-
 'use client'
 
 import { useState, useEffect } from 'react'
@@ -7,16 +6,16 @@ import { motion } from 'framer-motion'
 const services = [
   {
     title: 'Material Intelligence and Selection',
-    description: `With over 15 years of specialized expertise in ferro alloy materials, we stand as industry leaders in material intelligence and selection. Our advanced analytical capabilities and deep understanding of material behavior set us apart from competitors.
+    description: `With extensive specialized expertise in ferro alloy materials, I stand as an industry leader in material intelligence and selection. My advanced analytical capabilities and deep understanding of material behavior set me apart in the ferro alloy industry.
 
-Our team of metallurgical experts employs cutting-edge characterization techniques and proprietary selection algorithms to optimize material compositions. We've successfully reduced raw material costs by 25% while improving final product quality for numerous clients.
+I employ cutting-edge characterization techniques and proprietary selection algorithms to optimize ferro alloy material compositions. I have successfully reduced raw material costs while improving final product quality for numerous ferro alloy clients.
 
 Key achievements:
-• Developed innovative material testing protocols now adopted industry-wide
-• Achieved 99.8% accuracy in predicting material performance
-• Reduced client material waste by average 30%
+• Developed innovative ferro alloy material testing protocols now adopted industry-wide
+• Achieved high accuracy in predicting ferro alloy material performance
+• Reduced client material waste significantly in ferro alloy production
 
-Our commitment to excellence has earned us recognition as the go-to consultants for critical material decisions in the ferro alloy industry.`,
+My commitment to excellence has earned recognition as the go-to consultant for critical ferro alloy material decisions in the industry.`,
     image: '/images/home/innovation/brand.svg',
     headerImage: '/images/home/services/material-testing-lab.jpg',
     bgColor: 'bg-purple/20',
@@ -24,16 +23,16 @@ Our commitment to excellence has earned us recognition as the go-to consultants 
   },
   {
     title: 'Process Engineering & Optimization',
-    description: `Leading the industry in process optimization, our engineering solutions have revolutionized ferro alloy production efficiency. Our unique approach combines traditional engineering expertise with advanced AI-driven analysis.
+    description: `Leading in ferro alloy process optimization, my engineering solutions have revolutionized ferro alloy production efficiency. My unique approach combines traditional ferro alloy engineering expertise with advanced analytical methods.
 
-We've pioneered breakthrough technologies in energy optimization and process control, resulting in unprecedented improvements in operational efficiency. Our solutions have helped clients achieve up to 40% reduction in energy consumption while maintaining superior product quality.
+I have pioneered breakthrough technologies in ferro alloy energy optimization and process control, resulting in significant improvements in operational efficiency. My solutions have helped clients achieve substantial reduction in energy consumption while maintaining superior ferro alloy product quality.
 
 Significant impacts:
-• Implemented smart furnace control systems increasing yield by 35%
-• Developed real-time monitoring solutions reducing downtime by 60%
-• Optimized production processes saving clients millions annually
+• Implemented smart ferro alloy furnace control systems increasing yield substantially
+• Developed real-time monitoring solutions reducing downtime significantly
+• Optimized ferro alloy production processes saving clients considerable costs annually
 
-Our track record of successful implementations across global operations demonstrates our unmatched capability in process engineering.`,
+My track record of successful implementations across global ferro alloy operations demonstrates unmatched capability in ferro alloy process engineering.`,
     image: '/images/home/innovation/digitalmarketing.svg',
     headerImage: '/images/home/services/process-control-room.jpg',
     bgColor: 'bg-blue/20',
@@ -41,33 +40,25 @@ Our track record of successful implementations across global operations demonstr
   },
   {
     title: 'Failure Analysis & Reliability Engineering',
-    description: `As pioneers in reliability engineering for the ferro alloy industry, we bring unparalleled expertise in failure analysis and prevention. Our systematic approach combines advanced diagnostic tools with decades of hands-on experience.
+    description: `As a pioneer in reliability engineering for the ferro alloy industry, I bring unparalleled expertise in ferro alloy failure analysis and prevention. My systematic approach combines advanced diagnostic tools with decades of hands-on ferro alloy experience.
 
-Our team has successfully resolved complex operational challenges across hundreds of plants worldwide. We've developed proprietary methodologies that have become industry standards for failure prevention and reliability improvement.
+I have successfully resolved complex ferro alloy operational challenges across numerous plants worldwide. I have developed proprietary methodologies that have become industry standards for ferro alloy failure prevention and reliability improvement.
 
-Proven excellence:
-• Reduced equipment failure rates by average 75%
-• Increased plant reliability to 99.9% uptime
-• Saved clients over $50M in prevented failures
-
-Our comprehensive reliability solutions have made us the trusted partner for leading ferro alloy producers globally.`,
+My comprehensive ferro alloy reliability solutions have made me the trusted partner for leading ferro alloy producers globally, ensuring optimal performance and minimal downtime in their operations.`,
     image: '/images/home/innovation/uiux.svg',
     headerImage: '/images/home/services/reliability-testing.jpg',
     bgColor: 'bg-orange/20',
     textColor: 'text-orange'
   },
   {
-    title: 'Testing, Auditing & Compliance',
-    description: `With accreditation from leading international bodies, we provide the most comprehensive testing and auditing services in the ferro alloy industry. Our rigorous methodologies and cutting-edge testing facilities ensure unmatched accuracy and reliability.
+    title: 'New Product Development & Troubleshooting',
+    description: `With accreditation from leading international bodies, I provide comprehensive new product development and troubleshooting services specialized in ferro alloys. My rigorous methodologies and cutting-edge approach ensure unmatched accuracy and reliability in ferro alloy innovations.
 
-Our audit protocols have been adopted as best practices by regulatory bodies worldwide. We combine technical expertise with deep industry knowledge to deliver actionable compliance solutions.
+I specialize in the manufacture of special ferro alloy products like ultra low phosphorous ferro alloys, low manganese ferro alloys, low silicon ferro chrome (FeCr), and MCFCM2. My expertise extends to production of specialized products like low silicon SiMn, low Mn ferro alloys, and FeMn utilizing FeMn slag and L.G.H.S ores, among many other specialized ferro alloy products.
 
-Industry leadership:
-• Conducted over 1000 successful plant audits globally
-• Developed 15 industry-standard testing protocols
-• 100% success rate in compliance certification
+My troubleshooting protocols have been recognized as best practices by the ferro alloy industry. I combine technical ferro alloy expertise with deep industry knowledge to deliver actionable solutions for complex ferro alloy challenges.
 
-Our reputation for thoroughness and expertise makes us the preferred choice for critical compliance requirements.`,
+My reputation for thoroughness and ferro alloy expertise makes me the preferred choice for critical new product development and troubleshooting requirements in the ferro alloy sector.`,
     image: '/images/home/innovation/analitics.svg',
     headerImage: '/images/home/services/quality-inspection.jpg',
     bgColor: 'bg-green/20',
@@ -75,16 +66,11 @@ Our reputation for thoroughness and expertise makes us the preferred choice for 
   },
   {
     title: 'Training and R&D Solutions',
-    description: `As industry thought leaders, we deliver cutting-edge training and R&D solutions that shape the future of ferro alloy production. Our research initiatives have led to breakthrough innovations in process technology and material science.
+    description: `As an industry thought leader, I deliver cutting-edge training and R&D solutions that shape the future of ferro alloy production. My research initiatives have led to breakthrough innovations in ferro alloy process technology and material science.
 
-Our training programs combine theoretical knowledge with practical applications, delivered by industry experts with decades of experience. We've trained over 10,000 professionals worldwide, creating the next generation of industry leaders.
+My training programs combine theoretical ferro alloy knowledge with practical applications, delivered with decades of ferro alloy experience. I have trained numerous professionals worldwide, creating the next generation of ferro alloy industry leaders.
 
-Innovation highlights:
-• Developed 20+ patented technologies
-• Published 50+ research papers in leading journals
-• Created industry's first virtual reality training platform
-
-Our commitment to innovation and knowledge sharing has established us as the premier R&D partner in the ferro alloy industry.`,
+My commitment to innovation and knowledge sharing has established me as the premier R&D partner in the ferro alloy industry, consistently pushing the boundaries of what's possible in ferro alloy technology and production methods.`,
     image: '/images/home/innovation/webdevp.svg',
     headerImage: '/images/home/services/training-session.jpg',
     bgColor: 'bg-pink/20',
@@ -93,11 +79,11 @@ Our commitment to innovation and knowledge sharing has established us as the pre
 ]
 
 const images = [
-  '/images/home/services/lab-testing.jpg',
-  '/images/home/services/process-optimization.jpg',
-  '/images/home/services/reliability-engineering.jpg',
-  '/images/home/services/training-workshop.jpg',
-  '/images/home/services/research-development.jpg'
+  '/images/home/inno/ne.png',
+  '/images/home/inno/new.png',
+  '/images/home/inno/proc.png',
+  '/images/home/inno/trai.png',
+  '/images/home/inno/wo.png'
 ]
 
 export default function Page() {
@@ -114,7 +100,7 @@ export default function Page() {
 
   return (
     <div className="container mx-auto px-4 py-16">
-      <h1 className="text-4xl font-bold text-center mb-12">Our Services</h1>
+      <h1 className="text-4xl font-bold text-center mb-12">My Services</h1>
       
       {/* Service Navigation */}
       <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -140,28 +126,10 @@ export default function Page() {
       >
         <div className={`p-8 rounded-2xl ${services[selectedService].bgColor}`}>
           <div className="flex flex-col gap-8">
-            {/* Header Image */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5 }}
-              className="w-full h-[300px] rounded-xl overflow-hidden"
-            >
-              <img
-                src={services[selectedService].headerImage}
-                alt={`${services[selectedService].title} header`}
-                className="w-full h-full object-cover"
-              />
-            </motion.div>
+           
 
             <div className="flex flex-col md:flex-row items-start gap-8">
-              <div className="w-24 h-24 flex-shrink-0">
-                <img
-                  src={services[selectedService].image}
-                  alt={services[selectedService].title}
-                  className="w-full h-full object-contain"
-                />
-              </div>
+             
               <div>
                 <h2 className={`text-2xl font-bold mb-4 ${services[selectedService].textColor}`}>
                   {services[selectedService].title}

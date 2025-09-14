@@ -32,7 +32,7 @@ function HeroSection() {
 
   return (
     <section>
-      <div className='relative w-full pt-44 2xl:pb-20 pb-10 before:absolute before:w-full before:h-full before:bg-linear-to-r before:from-blue_gradient before:via-white before:to-yellow_gradient before:rounded-full before:top-24 before:blur-3xl before:-z-10 dark:before:from-dark_blue_gradient dark:before:via-black dark:before:to-dark_yellow_gradient dark:before:rounded-full dark:before:blur-3xl dark:before:-z-10'>
+      <div className='relative w-full pt-24 2xl:pb-20 pb-10 before:absolute before:w-full before:h-full before:bg-linear-to-r before:from-blue_gradient before:via-white before:to-yellow_gradient before:rounded-full before:top-24 before:blur-3xl before:-z-10 dark:before:from-dark_blue_gradient dark:before:via-black dark:before:to-dark_yellow_gradient dark:before:rounded-full dark:before:blur-3xl dark:before:-z-10'>
         <div className='container relative z-10'>
           <div ref={ref} className='flex flex-col gap-8'>
             {/* ---------------- heading text --------------- */}
@@ -40,15 +40,15 @@ function HeroSection() {
               {...bottomAnimation}
               className='relative flex lg:flex-row flex-col items-center justify-between gap-8'>
               
-              <div className='lg:max-w-[50%] flex flex-col text-center lg:text-left items-center lg:items-start gap-4'>
-                <h1 className='font-medium w-auto'>
-                  Metallurgical solutions with
-                  <span className='instrument-font italic font-normal dark:text-white/70'>
-                    {' '}
-                    precision expertise
+              <div className='lg:max-w-[50%] flex flex-col text-center lg:text-left items-center lg:items-start gap-0.5'>
+                <h1 className='font-medium w-auto text-17xl leading-none'>
+                  Metallurgical Solutions <span className='text-7xl leading-none'>(Ferro Alloys)</span>
+                 
+                  <span className='instrument-font italic font-normal dark:text-white/70 block text-7xl leading-tight'>
+                    with proven expertise
                   </span>
                 </h1>
-                <p className='max-w-38 text-dark_black/60 dark:text-white/60'>
+                <p className='max-w-38 text-dark_black/60 dark:text-white/60 text-sm mt-1.5'>
                   Crafting exceptional metallurgical solutions & advanced technologies driven by decades of experience to drive impactful results with precision and innovation
                 </p>
               </div>
@@ -64,7 +64,7 @@ function HeroSection() {
                     priority
                   />
                 </div>
-                <div className='mt-4 bg-white/80 dark:bg-dark_black/80 backdrop-blur-sm p-4 rounded-xl'>
+                <div className='mt-1 bg-white/80 dark:bg-dark_black/80 backdrop-blur-sm p-4 rounded-xl'>
                   <h4 className='text-lg font-semibold'>Shri A.V.L. Narasimham</h4>
                   <p className='text-sm text-dark_black/60 dark:text-white/60'>Ferro Alloys - Pitamaha | Metallurgical Engineer</p>
                 </div>
@@ -78,7 +78,7 @@ function HeroSection() {
               <div className='flex flex-col items-center justify-center gap-8 w-full sm:flex-row'>
                 {/* ----------- Get started Link -------------- */}
                 <Link
-                  href='/contact'
+                  href='/#pricing'
                   className='group bg-purple_blue text-white font-medium flex flex-row justify-between items-center py-2 px-5 rounded-full max-w-64 w-full md:py-3 border border-purple_blue transition-all duration-200 ease-in-out hover:bg-transparent hover:text-purple_blue'>
                   <span className='flex text-start transform transition-transform duration-200 ease-in-out group-hover:translate-x-20'>
  Get Consultation
@@ -136,7 +136,7 @@ function HeroSection() {
                       <StarRating count={5} color='#F59E0B' />
                     </div>
                     <p className='text-sm font-normal text-dark_black/60 dark:text-white/60'>
-                      Trusted by 100+ clients
+                      Trusted by 35+ Organizations
                     </p>
                   </div>
                 </div>

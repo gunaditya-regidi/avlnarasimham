@@ -29,13 +29,13 @@ export default function AboutUsContent() {
 
               {/* About Us */}
               <div className="bg-white dark:bg-dark_black p-8 rounded-2xl">
-                <h2 className="text-2xl mx-auto text-align-center font-semibold mb-3">Metallurgical Consultancy by A.V.L. Narasimham Garu</h2>
+                <h2 className="text-2xl mx-auto text-align-center font-semibold mb-3">Metallurgical Consultancy by <span className="font-semibold text-purple-600">Mr. A.V.L. Narasimham</span></h2>
                 <div className="space-y-6">
                   {/* Family Background */}
                   <div>
                     <h3 className="text-xl font-semibold mb-2 text-purple-600">Family Background</h3>
                     <p className="text-opacity-90">
-                      Mr. A.V.L. Narasimham is the second son of <span className="font-semibold">Late Sri A.S.N. Murty</span> and <span className="font-semibold">Smt. A. Bangaramma</span>. His father was an <span className="text-purple-600">eminent Advocate</span> based in Parlakhemundi (Ganjam district), Odisha. He has one elder brother who was a <span className="text-purple-600">renowned judge</span> in Odisha and four sisters. He is happily married to <span className="font-semibold">Mrs. Suryakanthi</span> and they have three children. He was born on <span className="font-semibold">24th September 1947</span> in Hargaon, a small industrial town in Sitapur District, Uttar Pradesh.
+                      Mr. A.V.L. Narasimham is the second son of <span className="font-semibold">Late Sri A.S.N. Murty</span> and <span className="font-semibold">Smt. A. Bangaramma</span>. His father was an <span className="text-purple-600">eminent Advocate</span> based in Parlakhemundi (Ganjam district), Odisha. He is also the son-in-law of <span className="font-semibold">Late Shri N. Seetha Raman</span>, who served as the Electrical Head at FACOR. He has one elder brother who was a <span className="text-purple-600">renowned judge</span> in Odisha and four sisters. He is happily married to <span className="font-semibold">Mrs. Suryakanthi</span> and they have three children. His youngest daughter is settled in Vizag with her son-in-law working at Vizag Steel. His second daughter is in the US, where both she and her son-in-law work for Campbell Phillips, a reputed oil company. His eldest son works in a ferro alloy plant. He was born on <span className="font-semibold">24th September 1947</span> in Hargaon, a small industrial town in Sitapur District, Uttar Pradesh.
                     </p>
                   </div>
 <br></br>
@@ -46,6 +46,8 @@ export default function AboutUsContent() {
                       <li>Completed early education up to <span className="font-semibold">Pre-Professional Course</span> in Parlakhemundi</li>
                       <li>Graduated in <span className="text-purple-600">Metallurgical Engineering</span> from <span className="font-semibold">Regional Engineering College, Rourkela (Odisha)</span></li>
                       <li>Maintained <span className="text-purple-600">consistent first-class performance</span> throughout academic career</li>
+                      <li>Member of <span className="font-semibold">MIIM (Member of Indian Institute of Metals)</span> and <span className="font-semibold">MIE (Member of Institution of Engineers)</span></li>
+                      <li>Associated with the <span className="font-semibold">Indian Institute of Metals</span></li>
                       <li>Demonstrated strong aptitude in metallurgical sciences and engineering principles</li>
                       <li>Participated actively in technical workshops and industrial training programs</li>
                     </ul>
@@ -55,7 +57,7 @@ export default function AboutUsContent() {
                   <div>
                     <h3 className="text-xl font-semibold mb-2 text-purple-600">Professional Background</h3>
                     <p className="text-opacity-90 mb-4">
-                      Mr. Narasimham began his professional journey in 1969 with Ferro Alloys Corporation (FACOR) as a Shift Metallurgist and rose to the position of General Manager by 1993. He held several senior leadership roles in Tata Steel, Balasore Alloys, Shah Alloys, Metkore Alloys, and Rohit Ferro Tech. In 2004, he founded his own consultancy firm and has since offered technical advice and operational turnaround strategies to numerous ferro alloy and steel plants across India.
+                      Mr. Narasimham began his professional journey in 1969 with Ferro Alloys Corporation (FACOR) as a Shift Metallurgist and rose to the position of General Manager by 1993. He held several senior leadership roles in Tata Steel, Balasore Alloys, Shah Alloys, Metkore Alloys, and Rohit Ferro Tech. In 2004, he founded his own consultancy firm and has since provided comprehensive technical advisory services and operational turnaround strategies to numerous ferro alloy plants across India. With over <span className="font-semibold text-purple-600">50+ years of experience</span> in the industry, he continues to be a trusted advisor to leading metallurgical companies.
                     </p>
                     
                     <h4 className="text-lg font-semibold mb-3">Detailed Ferro Alloy Plants Involvement</h4>
@@ -85,7 +87,7 @@ export default function AboutUsContent() {
                           <tr>
                             <td className="border border-gray-300 dark:border-gray-700 p-2">1991-1998</td>
                             <td className="border border-gray-300 dark:border-gray-700 p-2">Ferro Alloys Corporation, Shreeram nagar A.P</td>
-                            <td className="border border-gray-300 dark:border-gray-700 p-2">General Manager(EG)</td>
+                            <td className="border border-gray-300 dark:border-gray-700 p-2">General Manager(CEO)</td>
                             <td className="border border-gray-300 dark:border-gray-700 p-2"></td>
                           </tr>
                           <tr>
@@ -103,15 +105,15 @@ export default function AboutUsContent() {
                           <tr>
                             <td className="border border-gray-300 dark:border-gray-700 p-2">2004-2006</td>
                             <td className="border border-gray-300 dark:border-gray-700 p-2 space-y-2">
-                              <p>1. Srivastavi Industries, Bishnupur, West Bengal</p>
-                              <p>2. JPL Raigarh Chattisgarh</p>
+                              <p>1. Srivasavi Industries, Bishnupur, West Bengal</p>
+                              <p>2. JSPL Raigarh Chattisgarh</p>
                               <p>3. GMR Industries, Tekkali, A.P</p>
                               <p>4. Andhra Ferro Alloys, Garbham A.P</p>
-                              <p>5. Sri Raghavendra Ferro Alloys, Nakerikal, A.P</p>
+                              <p>5. Sri Raghavendra Ferro Alloys, NakerkOl, A.P</p>
                               <p>6. Jindal stainless, JKRoad, Orissa</p>
                               <p>7. Rohit Ferro Tech, Bishnupur, W.B</p>
-                              <p>8. Monnet</p>
-                              <p>9. Nodi-Durgapur W.B</p>
+                              <p>8. Monnet Ispat, Durgapur, W.B</p>
+                              <p>9. Shyam Ferro, W.B</p>
                               <p>10. Sova ISPAT W.B</p>
                               <p>11. Jindal steel, Kothavalasa, A.P</p>
                               <p>12. Monnet Ispat Raipur</p>
@@ -136,10 +138,10 @@ export default function AboutUsContent() {
                             <td className="border border-gray-300 dark:border-gray-700 p-2 space-y-2">
                               <p>1. Sri Vasavi Industries, Bishnupur W.B</p>
                               <p>2. Metkore Industries, Tekkali, A.P</p>
-                              <p>3. JSL RAIGARH</p>
+                              <p>3. JSPL RAIGARH</p>
                               <p>4. SAL STEEL Gandidham, Gujarat</p>
                               <p>5. Mahalakshmi smelters Garbham A.P</p>
-                              <p>6. Swastik Ferro Alloys, Garbham A.P</p>
+                              <p>6. Swastik Ferro Alloys, Garividi A.P</p>
                               <p>7. Andhra Ferro Alloys, Garbham A.P</p>
                               <p>8. Prakash Industries champa Chattisgarh</p>
                             </td>
@@ -186,9 +188,9 @@ export default function AboutUsContent() {
                     </Swiper>
                   </div>
 
-                  {/* Overseas Visits */}
+                  {/* Professional Overseas Visits */}
                   <div>
-                    <h3 className="text-xl font-semibold mb-2 text-purple-600">Overseas Visits</h3>
+                    <h3 className="text-xl font-semibold mb-2 text-purple-600">Professional Overseas Visits</h3>
                     <p className="text-opacity-90 mb-4">
                       Mr. Narasimham has visited several international plants as part of his technical career:
                     </p>
@@ -218,6 +220,19 @@ export default function AboutUsContent() {
                         <span className="text-xl">🇨🇳</span> China
                       </li>
                       <li className="flex items-center gap-2">
+                        <span className="text-xl">🇴🇲</span> Oman
+                      </li>
+                    </ul>
+                  </div>
+<br></br>
+                  {/* Personal International Visits */}
+                  <div>
+                    <h3 className="text-xl font-semibold mb-2 text-purple-600">Personal International Visits</h3>
+                    <p className="text-opacity-90 mb-4">
+                      Personal travels and leisure visits to various countries:
+                    </p>
+                    <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-opacity-90">
+                      <li className="flex items-center gap-2">
                         <span className="text-xl">🇺🇸</span> United States
                       </li>
                       <li className="flex items-center gap-2">
@@ -238,9 +253,6 @@ export default function AboutUsContent() {
                       <li className="flex items-center gap-2">
                         <span className="text-xl">🇮🇩</span> Indonesia
                       </li>
-                      <li className="flex items-center gap-2">
-                        <span className="text-xl">🇴🇲</span> Oman
-                      </li>
                     </ul>
                   </div>
                   
@@ -251,7 +263,7 @@ export default function AboutUsContent() {
               <div className="bg-white dark:bg-dark_black p-8 rounded-2xl space-y-8">
                 <h2 className="text-2xl font-semibold mb-3">Our Mission</h2>
                 <p className="text-opacity-90 mb-4">
-                  <span className="font-bold text-purple-600">To deliver innovative, scalable, and cost-effective metallurgical solutions</span> that enhance production, efficiency, and sustainability across the steel and ferro alloy sectors.
+                  <span className="font-bold text-purple-600">To deliver innovative, scalable, and cost-effective metallurgical solutions</span> that enhance production, efficiency, and sustainability across the ferro alloy sectors.
                 </p>
                 <p className="text-opacity-90">
                   We are committed to leveraging decades of hands-on experience to provide comprehensive technical consulting that optimizes plant operations, reduces production costs, and implements sustainable practices in the metallurgical industry.
@@ -262,7 +274,7 @@ export default function AboutUsContent() {
                   <span className="font-bold text-purple-600">To be India's most trusted metallurgical think tank</span>, consistently delivering strategic, technical, and operational value to industry-leading clients.
                 </p>
                 <p className="text-opacity-90">
-                  We aspire to shape the future of India's ferro alloy and steel sectors by fostering innovation, sharing knowledge, and building lasting partnerships that drive industry excellence and sustainable growth.
+                  We aspire to shape the future of India's ferro alloy sectors by fostering innovation, sharing knowledge, and building lasting partnerships that drive industry excellence and sustainable growth.
                 </p>
               </div>
 
@@ -270,7 +282,7 @@ export default function AboutUsContent() {
               <div className="bg-white dark:bg-dark_black p-8 rounded-2xl space-y-4">
                 <h2 className="text-2xl font-semibold mb-3">Why Top Industries Trust Us</h2>
                 <ul className="list-disc list-inside space-y-2 text-opacity-90">
-                  <li><strong>30+ years</strong> of experience in metallurgical plant operations & turnaround consulting.</li>
+                  <li><strong>50+ years</strong> of experience in metallurgical plant operations & turnaround consulting.</li>
                   <li><strong>Hands-on transformation</strong> of multiple ferro alloy units in Odisha, West Bengal, Andhra Pradesh, and Chhattisgarh.</li>
                   <li><strong>Recognized by TATA, Jindal, GMR, Ferro Alloys Corp.,</strong> and many others for real, impactful results.</li>
                 </ul>
@@ -327,6 +339,30 @@ export default function AboutUsContent() {
                 >
                   Request Consultation
                 </Link>
+              </div>
+
+              {/* Acknowledgments */}
+              <div className="bg-white dark:bg-dark_black p-8 rounded-2xl">
+                <h2 className="text-2xl font-semibold mb-6 text-center text-purple-600">Acknowledgments</h2>
+                <div className="text-center space-y-4">
+                  <p className="text-opacity-90 text-lg">
+                    Mr. A.V.L. Narasimham expresses his heartfelt gratitude to those who have been instrumental in his success:
+                  </p>
+                  <div className="space-y-3 text-opacity-80">
+                    <p>
+                      <span className="font-semibold text-purple-600">His beloved wife</span> - <span className="font-semibold">Mrs. Suryakanthi</span>, for her unwavering support throughout his career journey
+                    </p>
+                    <p>
+                      <span className="font-semibold text-purple-600">His children and son-in-laws</span> - for their love, encouragement and understanding
+                    </p>
+                    <p className="font-semibold text-purple-600 mb-2">Three key people behind his success:</p>
+                    <ul className="space-y-1">
+                      <li><span className="font-semibold">Mr. G.R.K. Murthy</span></li>
+                      <li><span className="font-semibold">Mr. B.A. Raju</span></li>
+                      <li><span className="font-semibold">Mr. Punit Jaswani</span></li>
+                    </ul>
+                  </div>
+                </div>
               </div>
 
             </div>

@@ -64,7 +64,7 @@ function Subscription() {
                           <span
                             className={`text-base text-${items.descp_color} ml-1`}
                           >
-                            /Project
+                            only
                           </span>
                         </h2>
 
@@ -73,7 +73,7 @@ function Subscription() {
                           className='group text-dark_black font-medium bg-white rounded-full flex items-center gap-4 py-2 pl-5 pr-2 w-fit'
                         >
                           <span className='group-hover:translate-x-9 transform transition-transform duration-200 ease-in-out'>
-                            Let’s Collaborate
+                            Get Consultation
                           </span>
                           <svg
                             width='32'
