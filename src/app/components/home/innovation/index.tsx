@@ -93,7 +93,7 @@ function Innovation() {
   <div className='flex flex-col sm:flex-row gap-3 items-center'>
     {/* This button remains as previously defined, if you want it */}
     <Link
-      href='/services'
+      href='/ourservices'
       className='group gap-2 text-dark_black font-medium bg-white rounded-full flex items-center lg:gap-4 py-3 px-10 border border-white dark:border-opacity-50 hover:bg-transparent hover:text-white transition-all duration-200 ease-in-out relative overflow-hidden'>
       <span className='mr-4 group-hover:translate-x-6 transform transition-transform duration-200 ease-in-out'>
         View Services

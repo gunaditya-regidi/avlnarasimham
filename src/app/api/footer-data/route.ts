@@ -33,8 +33,8 @@ const footerData = {
             { name: "Contact us", url: "/contact" },
             { name: "About us", url: "/aboutus" },
             { name: "Our Services", url: "/ourservices" },
-            { name: "Consultation", url: "/Contact" },
-            { name: "Interview", url: "/#solution" }
+            { name: "Consultation", url: "/#pricing" },
+            { name: "Interview", url: "/#lifejourney" }
         ]
     },
     contactDetails: {
