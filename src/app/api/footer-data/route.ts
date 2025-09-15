@@ -41,7 +41,7 @@ const footerData = {
         name:"Contact Details",
         address: "#39-2-4/2, Muralinagar, Visakhapatnam, Andhra Pradesh - 530007",
         email: "avin1947@gmail.com  avinash1947@yahoo.com",
-        phone: "0105 192 3556"
+        phone: " "
     },
     copyright: "©2025 A.V.L. Narasimham. All Rights Reserved | Designed & Developed by Digital Videos MSME"
 };
