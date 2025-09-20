@@ -66,7 +66,7 @@ function HeroSection() {
                 </div>
                 <div className='mt-1 bg-white/80 dark:bg-dark_black/80 backdrop-blur-sm p-4 rounded-xl'>
                   <h4 className='text-lg font-semibold'>Shri A.V.L. Narasimham</h4>
-                  <p className='text-sm text-dark_black/60 dark:text-white/60'>Ferro Alloys - Pitamaha | Metallurgical Engineer</p>
+                  <p className='text-sm text-dark_black/60 dark:text-white/60'>Ferro Alloys - Technical Advisor | Metallurgical Engineer</p>
                 </div>
               </div>
 
