@@ -13,7 +13,7 @@ function WebResult() {
 
   // Sample image array - replace these URLs with your actual image paths
   const sliderImages = [
-     '/images/slider/image1.jpeg',     '/images/slider/image2.jpeg',     '/images/slider/image3.jpeg',     '/images/slider/image4.jpeg',     '/images/slider/image5.jpeg',     '/images/slider/image6.jpeg',     '/images/slider/image7.jpeg',     '/images/slider/image8.jpeg',     '/images/slider/image9.jpeg',     '/images/slider/image10.jpeg',     '/images/slider/image11.jpeg',     '/images/slider/image12.jpeg',     '/images/slider/image13.jpeg',     '/images/slider/image14.jpeg',     '/images/slider/image15.jpeg',
+     '/images/slider/image1.jpeg',     '/images/slider/image2.jpeg',     '/images/slider/image3.jpeg',     '/images/slider/image4.jpeg',     '/images/slider/image5.jpeg',     '/images/slider/image6.jpeg',     '/images/slider/image7.jpeg',     '/images/slider/image8.jpeg',     '/images/slider/image9.jpeg',     '/images/slider/image10.jpeg',     '/images/slider/image11.jpeg',     '/images/slider/image12.jpeg',     '/images/slider/image13.jpeg',     '/images/slider/image14.jpeg',     '/images/slider/image15.jpeg',  '/images/slider/image16.jpg', '/images/slider/image17.jpg',
   ];
 
   useEffect(() => {
